@@ -1,0 +1,91 @@
+a {
+    text-decoration: none;
+    color: #00007f;
+}
+
+h2 {
+    font-size: large;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+body {
+    line-height: 1;
+    color: #6c6c6c;
+    width: 90%;
+    margin: 0 auto;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0.3);
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'AxisStd-Regular','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro', 'Meiryo', 'メイリオ', sans-serif;
+    -webkit-font-feature-settings: "pkna";
+    font-feature-settings: "pkna";
+    letter-spacing: 0.06em;
+}
+
+.next-yurutech {
+    width: 100%;
+    /*margin: 20px;*/
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header {
+    margin: 30px;
+}
+
+header img {
+    width: 80px;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.title p {
+    margin-bottom: 5px;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+
+
+
+.yuruko {
+    width: 150px;
+    padding: 20px 0;
+}
+
+/*参加ボタン*/
+#footer #inqury .btns li {
+    font-size: 13px;
+    line-height: 1;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 23px;
+}
+
+#footer #inqury .btns li a {
+    width: 400px;
+    padding: 16px 0;
+}
+
+.borderBtn a {
+    width: 260px;
+    padding: 20px 0;
+    display: inline-block;
+    border: 2px solid #00007f;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: color 0.05s ease-in-out;
+    transition: color 0.05s ease-in-out;
+    text-align: center;
+}
+
+li.borderBtn.line {
+    list-style: none;
+}
